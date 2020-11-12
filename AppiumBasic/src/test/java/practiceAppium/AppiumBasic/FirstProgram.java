@@ -29,7 +29,7 @@ public class FirstProgram extends base
 		
 		driver.findElementByXPath("//android.widget.EditText[@text='Amazon password']").sendKeys("test123");
 		driver.findElementByClassName("android.widget.Button").click();
-		
+		System.out.println("Output");
 		/*AndroidElement value = driver.findElementByXPath("//android.widget.EditText[@text='Search']");
 	    value.sendKeys("65-inch TV");*/
 		driver.findElementByXPath("//android.widget.EditText[@text='Search']").click();

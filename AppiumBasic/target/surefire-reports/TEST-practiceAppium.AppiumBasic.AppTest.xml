@@ -5,7 +5,7 @@
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin"/>
     <property name="java.vm.version" value="25.231-b26"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\798800\Music\Appium\AppiumBasic"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\798800\git\repository\AppiumBasic"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\798800\Music\Appium\AppiumBasic"/>
+    <property name="user.dir" value="C:\Users\798800\git\repository\AppiumBasic"/>
     <property name="java.runtime.version" value="1.8.0_231-b26"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\endorsed"/>
@@ -27,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\798800\Music\Appium\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4368745423749279959.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\798800\Music\Appium\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2839294114175134490.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_271/bin/server;C:/Program Files/Java/jre1.8.0_271/bin;C:/Program Files/Java/jre1.8.0_271/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\798800\AppData\Local\Android\Sdk\tools;C:\Users\798800\AppData\Local\Android\Sdk\tools\bin;C:\Users\798800\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs;C:\Users\798800\Downloads\apache-maven-3.6.3-bin (1)\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk1.8.0_231\bin;C:\Program Files\Java\jre1.8.0_231\bin;C:\Program Files\nodejs\node_modules\npm\bin;C:\Users\798800\AppData\Local\Android\Sdk;C:\Users\798800\AppData\Local\Android\Sdk\tools\lib\x86_64\swt.jar;C:\Users\798800\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_231\bin;C:\Users\798800\Music\apache-jmeter-5.2.1\bin;C:\Users\798800\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\node-v12.18.2-win-x64;C:\Users\798800\AppData\Roaming\npm;;C:\Software\eclipse-java-photon-M2-win32-x86_64\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -53,7 +53,7 @@
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_231\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\Users\798800\Music\Appium\AppiumBasic\EMBEDDED"/>
+    <property name="maven.home" value="C:\Users\798800\git\repository\AppiumBasic\EMBEDDED"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
