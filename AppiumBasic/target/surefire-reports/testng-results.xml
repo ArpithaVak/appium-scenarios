@@ -2,10 +2,10 @@
 <testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="practiceAppium.AppiumBasic.AppTest" duration-ms="6" started-at="2020-11-12T04:32:37Z" finished-at="2020-11-12T04:32:37Z">
+  <suite name="practiceAppium.AppiumBasic.AppTest" duration-ms="8" started-at="2020-11-13T02:26:32Z" finished-at="2020-11-13T02:26:32Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="6" started-at="2020-11-12T04:32:37Z" finished-at="2020-11-12T04:32:37Z">
+    <test name="Command line test" duration-ms="8" started-at="2020-11-13T02:26:32Z" finished-at="2020-11-13T02:26:32Z">
     </test> <!-- Command line test -->
   </suite> <!-- practiceAppium.AppiumBasic.AppTest -->
 </testng-results>

@@ -1,2 +1,6 @@
-practiceAppium\AppiumBasic\AppTest.class
+practiceAppium\AppiumBasic\LoginData.class
 practiceAppium\AppiumBasic\FirstProgram.class
+testCase\Actions.class
+practiceAppium\AppiumBasic\AppTest.class
+practiceAppium\AppiumBasic\HomePageScenario.class
+testCase\LoginToAppAndSearchForAItem.class

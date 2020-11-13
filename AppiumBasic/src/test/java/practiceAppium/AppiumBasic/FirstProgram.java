@@ -29,7 +29,7 @@ public class FirstProgram extends base
 		
 		driver.findElementByXPath("//android.widget.EditText[@text='Amazon password']").sendKeys("test123");
 		driver.findElementByClassName("android.widget.Button").click();
-		System.out.println("Output");
+		
 		/*AndroidElement value = driver.findElementByXPath("//android.widget.EditText[@text='Search']");
 	    value.sendKeys("65-inch TV");*/
 		driver.findElementByXPath("//android.widget.EditText[@text='Search']").click();
@@ -37,12 +37,11 @@ public class FirstProgram extends base
 		Actions action=new Actions(driver); 
 	    action.sendKeys("65-inch TV").sendKeys(Keys.ENTER).build().perform();
 	    
-	    driver.findElementByXPath("//android.widget.TextView[@text='Select a location to see product availability ⌵']").click();
-	    driver.findElementByXPath("//android.widget.TextView[@text='Use my current location']").click();
+	    //driver.findElementByXPath("//android.widget.TextView[@text='Select a location to see product availability ⌵']").click();
+	   // driver.findElementByXPath("//android.widget.TextView[@text='Use my current location']").click();
 	    
-	    driver.findElementByXPath("//android.widget.Button[@text='Allow']").click();
-	driver.findElementByXPath("//android.widget.TextView[@text='Sanyo 164 cm (65 inches) Kaizen Series 4K Ultra HD Certified Android LED TV XT-65UHD4S (Black) (2020 Model)']").click();
-	    
+	    //driver.findElementByXPath("//android.widget.Button[@text='Allow']").click();
+	    driver.findElementByXPath("//android.widget.TextView[@text='Sanyo 164 cm (65 inches) Kaizen Series 4K Ultra HD Certified Android LED TV XT-65UHD4S (Black) (2020 Model)']").click();	    
 }
 }
 
