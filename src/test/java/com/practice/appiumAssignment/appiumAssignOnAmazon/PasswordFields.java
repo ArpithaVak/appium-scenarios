@@ -14,7 +14,7 @@ public class PasswordFields extends Base
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
 	}
 	
-	@AndroidFindBy(className="android.widget.EditText")
+	@AndroidFindBy(xpath="//android.widget.EditText[@index='1']")
 	public AndroidElement EnterPassword;
 
 	@AndroidFindBy(className="android.widget.Button")
@@ -22,6 +22,7 @@ public class PasswordFields extends Base
 
 	public void enterPassword(String password)
 	{
+		EnterPassword.clear();
 		EnterPassword.sendKeys(password);	
 	}
 

@@ -1,5 +1,8 @@
 package com.practice.appiumAssignment.appiumAssignOnAmazon;
 
+import java.util.List;
+
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.touch.TouchActions;
 import org.openqa.selenium.support.PageFactory;
 
@@ -16,22 +19,30 @@ public class HomePage extends Base
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
 	}
 		
-	@AndroidFindBy(xpath="//android.widget.EditText[@text='Search']")
+	//@AndroidFindBy(xpath="//android.widget.EditText[@text='Search']")
+	@AndroidFindBy(id="com.amazon.mShop.android.shopping:id/rs_search_src_text")
 	public AndroidElement SearchTextBox;
 
-	@AndroidFindBy(xpath="//android.widget.TextView[@text='Sanyo 164 cm (65 inches) Kaizen Series 4K Ultra HD Certified Android LED TV XT-65UHD4S (Black) (2020 Model)']")
+	//@AndroidFindBy(xpath="//android.widget.LinearLayout[@index='0']")
+	@AndroidFindBy(xpath="//android.widget.TextView[@text='65-inch tv']")
 	public AndroidElement EntersearcValue;
 		
-	public void search()
+	public void search(String TV)
 	{
+		SearchTextBox.clear();
 		SearchTextBox.click();
+		SearchTextBox.sendKeys(TV);
+
+	/*TouchActions action=new TouchActions(driver); 
+	  action.sendKeys("65-inch TV").sendKeys(Keys.ENTER).build().perform();
+		//SearchTextBox.sendKeys("65-inch TV");
+		
+		System.out.println("Success");*/
 	}
 
-	public void searchForATV(String search)
+public void searchForATV()
 	{
-		EntersearcValue.sendKeys(search);
-		/*TouchActions action=new TouchActions(driver); 
-	    action.sendKeys("65-inch TV").sendKeys(Keys.ENTER).build().perform();*/
+	    EntersearcValue.clear();
+		EntersearcValue.click();
 	}
-
 }

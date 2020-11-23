@@ -15,6 +15,7 @@ public UsernameFields User;
 public PasswordFields Pass;
 public HomePage homepage;
 public ExcelInputs input;
+public Validation validation;
 
 @Test
 public void enterLoginCred() throws Exception
@@ -25,6 +26,7 @@ public void enterLoginCred() throws Exception
     User=new UsernameFields(driver);
 	Pass=new PasswordFields(driver);
 	homepage=new HomePage(driver);
+	validation=new Validation(driver);
 	input=new ExcelInputs();
 	
 	String username=input.getUsername();
@@ -38,10 +40,11 @@ public void enterLoginCred() throws Exception
 	
 	String TV="65-inch TV";
 	
-	homepage.search();
-	homepage.searchForATV(TV);	
+	homepage.search(TV);
+	homepage.searchForATV();	
+	
+	validation.Item();
 }
-
 
 }
 
