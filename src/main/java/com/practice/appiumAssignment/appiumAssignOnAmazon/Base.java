@@ -9,12 +9,15 @@ import java.util.Properties;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.remote.MobileCapabilityType;
 
 public class Base 
 {
+	//public static AppiumDriver<AndroidElement> driver;
+
 	public static AndroidDriver<AndroidElement> Amazon(String appName) throws IOException
 	{
 		FileInputStream fis=new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\com\\practice\\appiumAssignment\\appiumAssignOnAmazon\\global.properties");

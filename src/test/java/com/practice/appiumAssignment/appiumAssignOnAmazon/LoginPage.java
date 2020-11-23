@@ -26,8 +26,9 @@ public class LoginPage extends Base
 	public AndroidElement ClickNext;
 
 	//@AndroidFindBy(xpath="//android.widget.EditText[@text='Amazon password']")
-
-	@AndroidFindBy(id="ap_password")
+    //@AndroidFindBy(id="ap_password")
+	
+	@AndroidFindBy(className="android.widget.EditText")
 	public AndroidElement EnterPassword;
 
 	@AndroidFindBy(className="android.widget.Button")

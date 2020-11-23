@@ -25,10 +25,12 @@ public void enterLoginCred() throws Exception
 	input=new ExcelInputs();
 	
 	String username=input.getUsername();
-	String password=input.getPassword();
-	
+
 	loginpage.clickAlreadyACustomer();
 	loginpage.enterEmail(username);
+	
+	String password=input.getPassword();
+
 	loginpage.enterPassword(password);
 	loginpage.clickNextButton();
 	
@@ -37,7 +39,4 @@ public void enterLoginCred() throws Exception
 	homepage.search();
 	homepage.searchForATV(TV);	
 }
-
-
-
 }

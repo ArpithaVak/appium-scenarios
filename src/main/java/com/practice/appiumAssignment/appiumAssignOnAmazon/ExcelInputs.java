@@ -22,6 +22,7 @@ public class ExcelInputs
 	//Returns Username
 	public String getUsername() throws IOException 
 	{
+		System.out.println("Enetr username");
 		try
 		{
 			file = new FileInputStream(new File(System.getProperty("user.dir") + "\\loginCred\\credentials.xlsx"));
@@ -38,14 +39,16 @@ public class ExcelInputs
 			System.out.println("Wrong username");
 		}
 
+		System.out.println(cell.getStringCellValue());
 		return cell.getStringCellValue();
+		
 	}
 
 	//Returns Password
 	public String getPassword() throws IOException {
-
+		System.out.println("Enetr password");
 		try {
-			file = new FileInputStream(new File(System.getProperty("user.dir") + "\\Documents\\LoginCredentials.xlsx"));
+			file = new FileInputStream(new File(System.getProperty("user.dir") + "\\loginCred\\credentials.xlsx"));
 			workbook = new XSSFWorkbook(file);
 			sheet = workbook.getSheetAt(0);
 
@@ -57,9 +60,9 @@ public class ExcelInputs
 		catch (Exception ex) 
 		{
 			System.out.println("Wrong username");
-
 		}
 		
+		System.out.println(cell.getStringCellValue());
 		return cell.getStringCellValue();
 	} 
 }
