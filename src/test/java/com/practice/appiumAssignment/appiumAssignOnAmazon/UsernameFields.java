@@ -9,9 +9,9 @@ import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 
-public class LoginPage extends Base
+public class UsernameFields extends Base
 {
-	public LoginPage(AppiumDriver<AndroidElement> driver)
+	public UsernameFields(AppiumDriver<AndroidElement> driver)
 	{
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
 	}
@@ -28,11 +28,11 @@ public class LoginPage extends Base
 	//@AndroidFindBy(xpath="//android.widget.EditText[@text='Amazon password']")
     //@AndroidFindBy(id="ap_password")
 	
-	@AndroidFindBy(className="android.widget.EditText")
+	/*@AndroidFindBy(className="android.widget.EditText")
 	public AndroidElement EnterPassword;
 
 	@AndroidFindBy(className="android.widget.Button")
-	public AndroidElement ClickSignIn;
+	public AndroidElement ClickSignIn;*/
 
 	public void clickAlreadyACustomer()
 	{
@@ -48,7 +48,7 @@ public class LoginPage extends Base
 	{
 		ClickNext.click();
 	}
-	public void enterPassword(String password)
+	/*public void enterPassword(String password)
 	{
 		EnterPassword.sendKeys(password);	
 	}
@@ -56,5 +56,5 @@ public class LoginPage extends Base
 	public void clickSignInButton() 
 	{
 		ClickSignIn.click();		
-	}
+	}*/
 	}

@@ -45,7 +45,7 @@ public class ExcelInputs
 	}
 
 	//Returns Password
-	public String getPassword() throws IOException {
+public String getPassword() throws IOException {
 		System.out.println("Enetr password");
 		try {
 			file = new FileInputStream(new File(System.getProperty("user.dir") + "\\loginCred\\credentials.xlsx"));
@@ -64,5 +64,6 @@ public class ExcelInputs
 		
 		System.out.println(cell.getStringCellValue());
 		return cell.getStringCellValue();
-	} 
+	}
+	 
 }

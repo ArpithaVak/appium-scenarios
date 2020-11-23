@@ -8,6 +8,10 @@ import java.util.Properties;
 
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeTest;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
@@ -16,8 +20,10 @@ import io.appium.java_client.remote.MobileCapabilityType;
 
 public class Base 
 {
+	
+	public static AppiumDriver<AndroidElement> driver;
 	//public static AppiumDriver<AndroidElement> driver;
-
+   
 	public static AndroidDriver<AndroidElement> Amazon(String appName) throws IOException
 	{
 		FileInputStream fis=new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\com\\practice\\appiumAssignment\\appiumAssignOnAmazon\\global.properties");
@@ -50,10 +56,9 @@ public class Base
 		return driver;
 	
 		 
-		// cap.setCapability(MobileCapabilityType.APP, System.getProperty("user.dir") + constants.APK_FILE_PATH);
+		// cap.setCapability(MobileCapabilityType.APP, System.getProperty("user.dir") + constants.APK_FILE_PATH)	
 	
-	
-	
-		 
 }
+    
 }
+
