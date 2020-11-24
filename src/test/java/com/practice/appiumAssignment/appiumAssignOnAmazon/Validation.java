@@ -60,6 +60,18 @@ public class Validation extends Base
 		String price=Price.getText();
 		System.out.println(price);	
 		
+		Dimension dimension=driver.manage().window().getSize();
+		int start_x=(int)(dimension.width*0.8);
+		int start_y=(int)(dimension.height*0.9);
+		
+		int end_x=(int)(dimension.width*0.1);
+		int end_y=(int)(dimension.height*0.1);
+		
+		TouchAction touch=new TouchAction(driver);
+		touch.press(PointOption.point(start_x,start_y))
+		.waitAction(WaitOptions.waitOptions(Duration.ofSeconds(1)))
+		.moveTo(PointOption.point(end_x,end_y)).release().perform();
+		
 	}
 	
 	/*@AndroidFindBy(id="add-to-cart-button")
