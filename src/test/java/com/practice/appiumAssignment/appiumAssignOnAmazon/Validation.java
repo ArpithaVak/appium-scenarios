@@ -36,6 +36,7 @@ public class Validation extends Base
 	
     @AndroidFindBy(id="add-to-cart-button")
 	public AndroidElement addToCart;
+    
 	
 	public void Item()
 	{
@@ -58,12 +59,9 @@ public class Validation extends Base
 	{
 		String price=Price.getText();
 		System.out.println(price);	
+		
 	}
 	
-	public void cart()
-	{
-		addToCart.click();
-	}
 	/*@AndroidFindBy(id="add-to-cart-button")
 	public AndroidElement addToCart;
      public void cart()

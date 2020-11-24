@@ -7,9 +7,9 @@ import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 
-public class PasswordFields extends Base
+public class PasswordTextField extends Base
 {
-	public PasswordFields(AppiumDriver<AndroidElement> driver)
+	public PasswordTextField(AppiumDriver<AndroidElement> driver)
 	{
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
 	}

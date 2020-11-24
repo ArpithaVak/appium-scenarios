@@ -7,9 +7,9 @@ import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 
-public class UsernameFields extends Base
+public class UsernameTextfield extends Base
 {
-	public UsernameFields(AppiumDriver<AndroidElement> driver)
+	public UsernameTextfield(AppiumDriver<AndroidElement> driver)
 	{
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
 	}
